@@ -15,6 +15,7 @@ pnpm-lock.yaml
 
 # Playwright
 mochawesome-report
+playwright-report
 test-results/
 reports/
 *.json

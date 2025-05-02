@@ -1,7 +1,7 @@
 # 📌 Test Plan - Magento Store
 
 ## 📌 1. Introduction
-This test plan aims to validate the main functionalities of the [Magento](https://magento.softwaretestingboard.com/) website to ensure users have a consistent and error-free experience. The tests will be automated using **Playwright**.
+This test plan aims to validate the main functionalities of the [Magento](https://magento.softwaretestingboard.com/) website to ensure users have a consistent and error-free experience. The tests will be automated using **Playwright** and report tests with **Playwright or Mochawesome Reports**. 
 
 ---
 
@@ -82,6 +82,9 @@ npx playwright test --headed
 npx playwright test --reporter=html
 ```
 After execution, open `playwright-report/index.html` to view the results.
+
+📌 **Generate Mochawesome Report:**  
+Open mochawesome-report folder and find mochawesome.html, click-right button on file and open with Open Live Server installed previously.  
 
 ---
 
