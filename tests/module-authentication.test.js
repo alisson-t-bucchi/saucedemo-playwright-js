@@ -15,7 +15,7 @@ test.describe('Testing module-authentications on saucedemo.com', () => {
   test('Login with valid credentials', async ({ page }) => {
     await loginPage(page);
 
-    await page.fill('#user-name', 'standard_user');
+    await page.fill('user-name', 'standard_user');
     await page.fill('#password', 'secret_sauce');
     await page.click('#login-button');
 
