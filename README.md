@@ -1,7 +1,7 @@
-# 📌 Test Plan - Magento Store
+# 📌 Test Plan - Saucedemo Store
 
 ## 📌 1. Introduction
-This test plan aims to validate the main functionalities of the [Magento](https://magento.softwaretestingboard.com/) website to ensure users have a consistent and error-free experience. The tests will be automated using **Playwright** and report tests with **Playwright or Mochawesome Reports**. 
+This test plan aims to validate the main functionalities of the [Swag Labs](https://www.saucedemo.com/) website to ensure users have a consistent and error-free experience. The tests will be automated using **Playwright** and report tests with **Playwright or Mochawesome Reports**. 
 
 ---
 
