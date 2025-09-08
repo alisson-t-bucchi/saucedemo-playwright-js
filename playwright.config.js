@@ -9,8 +9,7 @@ module.exports = defineConfig({
   timeout: 30 * 1000,                                      
   retries: 0,                                              
   use: {
-    headless: false,                                        
-    baseURL: 'https://magento.softwaretestingboard.com', 
+    headless: false,                                         
     screenshot: 'only-on-failure',                          // Captura tela apenas em falhas
   },
   projects: [
