@@ -9,7 +9,7 @@ module.exports = defineConfig({
   timeout: 30 * 1000,                                      
   retries: 0,                                              
   use: {
-    headless: false,                                         
+    headless: true,                                         
     screenshot: 'only-on-failure',                          // Captura tela apenas em falhas
   },
   projects: [
