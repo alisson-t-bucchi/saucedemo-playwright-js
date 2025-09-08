@@ -25,6 +25,9 @@ jobs:
     - name: Instalar dependências
       run: npm install
 
+    - name: Instalar Playwright
+      run: npm install --unsafe-perm=true
+
     - name: Instalar navegadores do Playwright
       run: npx playwright install
 
