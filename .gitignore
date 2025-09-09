@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# Playwright
+test-results/
+playwright-report/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.test
+
+# VSCode
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Optional: lock files (se quiser evitar conflitos entre npm/yarn/pnpm)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
