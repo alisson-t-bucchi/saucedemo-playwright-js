@@ -1,7 +1,6 @@
 //execute all tests in headless mode: npx playwright test
 //execute all test in visible mode: npx playwright test --headed
 
-
 import { test, expect } from '@playwright/test';
 
 test.describe('Testing module-authentications on saucedemo.com', () => {
