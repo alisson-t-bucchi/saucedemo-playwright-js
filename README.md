@@ -1,13 +1,12 @@
-# 📌 Test Plan - Saucedemo Store
+# ⚙️ Playwright test suite for Saucedemo Page by Swag Labs. 
 
 ## 📌 1. Introduction
-This test plan aims to validate the main functionalities of the [Swag Labs](https://www.saucedemo.com/) website to ensure users have a consistent and error-free experience. The tests will be automated using **Playwright** and report tests with **Playwright or Mochawesome Reports**. 
+This test plan aims to validate the main functionalities of the [Swag Labs](https://www.saucedemo.com/) website to ensure users have a consistent and error-free experience. The tests will be automated in a **GitHub Actions** pipeline with **Playwright** including report test cases with **Mochawesome Reports**. 
 
 ---
 
 ## 📌 2. Scope
 The tests will cover the following key functionalities:
-
 ✅ Authentication (Login/Logout, User Registration)  
 ✅ Product Search and Navigation  
 ✅ Adding and Removing Items from the Cart  
@@ -17,8 +16,8 @@ The tests will cover the following key functionalities:
 ---
 
 ## 📌 3. Testing Approach
-**📌 Tool:** Playwright  
-**📌 Types of Tests:**  
+**Tool:** Playwright  
+**Types of Tests:**  
 - Functional Tests  
 - UI Tests (element validation)  
 - Responsiveness Tests  
@@ -67,23 +66,23 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Then type Y and press Enter to confirm. Now, Playwright is accessible to be executed by the system. 
 
-📌 **Test Execution:**  
+**Test Execution:**  
 ```bash
 npx playwright test
 ```
 
-📌 **Execution with visible browser:**  
+**Execution with visible browser:**  
 ```bash
 npx playwright test --headed
 ```
 
-📌 **Generate HTML Report:**  
+**Generate HTML Report:**  
 ```bash
 npx playwright test --reporter=html
 ```
 After execution, open `playwright-report/index.html` to view the results.
 
-📌 **Generate Mochawesome Report:**  
+**Generate Mochawesome Report:**  
 Open mochawesome-report folder and find mochawesome.html, click-right button on file and open with Open Live Server installed previously.  
 
 ---
