@@ -1,6 +1,7 @@
 // playwright.config.js
 const dotenv = require('dotenv');
 const { defineConfig } = require('@playwright/test');
+const { devices } = require('@playwright/test');
 
 dotenv.config();
 
@@ -14,12 +15,17 @@ module.exports = defineConfig({
   },
   projects: [
     {
-      name: 'edge', 
-      use: {
-        browserName: 'chromium',
-        channel: 'msedge',
-      }
-    }
+      name: 'Chromium',
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'Firefox',
+      use: { ...devices['Desktop Firefox'] },
+    },
+    {
+      name: 'WebKit',
+      use: { ...devices['Desktop Safari'] },
+    },
   ],
   reporter: [
     ['pwmochawesome', {
